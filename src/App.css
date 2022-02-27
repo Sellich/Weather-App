@@ -1,0 +1,23 @@
+.App{
+   height: 100vh;
+   display: grid;
+   grid-template-areas: 
+   ". i ."
+   ". t .";
+   gap: 10vh;
+
+}
+.input{
+   grid-area: i;
+   display: flex;
+   justify-content: center;
+   align-items: end;
+   padding: 10px;
+}
+.temperature{
+   grid-area: t;
+   display: flex;
+   justify-content: center;
+   align-items: start;
+}
+

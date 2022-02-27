@@ -1,0 +1,33 @@
+.input_wrapper{
+   .form{
+      border: 1px solid grey;
+      display: grid;
+      grid-template-areas: "i i b";
+      grid-template-columns: 5fr 5fr 1fr;
+      height: 10vh;
+      &:hover{
+         box-shadow: 3px 3px 3px 3px grey;
+      }
+      .input_wrapper{
+         overflow: hidden;
+         grid-area: i;
+         .input{
+            border: none;
+            outline: none;
+            height: 100%;
+            font-size: 30px;
+         }
+      }
+      .btn_wrapper{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         grid-area: b;
+         .img{
+            height: 30px;
+            width: 30px;
+         }
+
+      }
+   }
+}
